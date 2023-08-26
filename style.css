@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px crimson;
+}
+
+.box {
+    margin: 20px;
+}
+
+.bird-image {
+    width: 300px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    opacity: 1.0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.bird-image:hover {
+    opacity: 0.9;
+}
